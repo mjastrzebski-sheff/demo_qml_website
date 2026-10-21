@@ -1,5 +1,5 @@
 # Publishes the site to GitHub Pages on every push to main.
-# The published site is website/ plus media/ and speaker_prezzies/
+# The published site is website_repo/website/ plus media/ and speaker_prezzies/
 # (linked in via symlinks). internal/ is never published.
 
 name: Publish website
@@ -30,7 +30,7 @@ jobs:
       # -L follows the website/media and website/speaker_prezzies symlinks,
       # so the real files get copied into the published site.
       - name: Assemble site
-        run: cp -RL website _site
+        run: cp -RL website_repo/website _site
 
       - uses: actions/configure-pages@v6
 
