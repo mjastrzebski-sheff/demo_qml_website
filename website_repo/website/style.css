@@ -45,11 +45,29 @@ a { color: var(--accent); }
   padding: 48px 0 32px;
   border-bottom: 1px solid var(--border);
 }
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 28px;
+  margin-bottom: 24px;
+}
 .logo {
   display: block;
-  max-height: 64px;
-  max-width: 100%;
-  margin-bottom: 20px;
+  height: 72px;
+  width: auto;
+}
+/* The SQC logo is white on transparent: show it dark on the light theme */
+.logo--sqc { filter: invert(1); }
+
+@media (prefers-color-scheme: dark) {
+  .logo--sqc { filter: none; }
+  /* The QCi3 logo has a white background: give it a tidy white tile */
+  .logo--qci3 {
+    padding: 6px;
+    background: #fff;
+    border-radius: 8px;
+  }
 }
 h1 {
   margin: 0;

@@ -24,31 +24,13 @@
 
 const TALKS = [
   {
-    date: "2026-09-30",
-    time: "14:00–15:00",
-    speaker: "Example Speaker",
-    affiliation: "University of Example",
-    title: "An introduction to variational quantum classifiers",
-    location: "Online",
-    abstract: "This is an example of a past talk. Past talks are listed below upcoming ones, most recent first.",
-    slides: "speaker_prezzies/example.pdf",
-  },
-  {
-    date: "2026-11-04",
-    time: "14:00–15:00",
-    speaker: "Jane Doe",
-    affiliation: "University of Somewhere",
-    title: "Barren plateaus and how to avoid them",
-    location: "Hicks Building, Room F41",
-    abstract: "This is an example abstract. Click \"Abstract\" on the page to show or hide it.\n\nA blank line in the text starts a new paragraph.",
-    link: "https://example.com/join",
-  },
-  {
-    date: "2026-11-18",
-    time: "14:00–15:00",
-    speaker: "John Smith",
-    affiliation: "Example Quantum Ltd",
+    date: "2026-11-13",
+    time: "TBA",
+    speaker: "TBA",
+    affiliation: "TBA",
     title: "TBA",
     location: "Online",
+    link: "https://universityofexeter.zoom.us/j/93484713848?pwd=YUxWeDE4UysxQVBmNEkzK1J6WGlRdz09",
+    abstract: "TBA",
   },
 ];
