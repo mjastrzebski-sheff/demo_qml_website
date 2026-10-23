@@ -31,7 +31,7 @@ function renderTalk(talk, isNext) {
     : "";
 
   const links = [
-    talk.link && `<a href="${e(talk.link)}">Join / details</a>`,
+    talk.link && `<a href="${e(talk.link)}">Join</a>`,
     talk.slides && `<a href="${e(talk.slides)}">Slides</a>`,
     talk.recording && `<a href="${e(talk.recording)}">Recording</a>`,
   ].filter(Boolean);
